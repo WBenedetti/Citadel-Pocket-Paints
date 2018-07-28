@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codemonkeys.cpp.MainScreen"
+    android:id="@+id/mainDrawer">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listviewPaints"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:columnCount="2"
+            android:rowCount="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/listviewPaints">
+
+            <Button
+                android:id="@+id/buttonShowNearby"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttonshape"
+                android:onClick="onClick"
+                android:text="@string/showNearby"
+                android:textColor="@color/userText"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="501dp" />
+
+            <Button
+                android:id="@+id/buttonPurchase"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/purchaseButton"
+                android:textColor="@color/userText"
+                app:layout_constraintStart_toEndOf="@+id/buttonShowNearby"
+                tools:layout_editor_absoluteY="498dp"
+                android:background="@drawable/buttonshape"/>
+
+            <Button
+                android:id="@+id/buttonShowInventory"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/showInventory"
+                android:textColor="@color/userText"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="549dp"
+                android:background="@drawable/buttonshape" />
+
+            <Button
+                android:id="@+id/buttonShowWishlist"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="@string/showWishlist"
+                android:onClick="onClick"
+                android:textColor="@color/userText"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="549dp"
+                android:background="@drawable/buttonshape"/>
+
+        </GridLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/navigation_menu" />
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,8 @@
+#Debug files to be ignored
+CitadelPocketPaints/CitadelPocketPaints/bin/Debug/
+CitadelPocketPaints/CitadelPocketPaints/obj/Debug/
+CitadelPocketPaints/Droid/bin/Debug/
+CitadelPocketPaints/Droid/obj/Debug/
+CitadelPocketPaints/iOS/obj/Debug/
+CitadelPocketPaints/iOS/bin/iPhoneSimulator/Debug/
+CitadelPocketPaints/iOS/obj/iPhoneSimulator/Debug/

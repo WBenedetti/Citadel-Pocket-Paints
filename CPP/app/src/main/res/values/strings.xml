@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Citadel Pocket Paints!</string>
+    <string name="showAll">Show All Paints</string>
+    <string name="addInventory">Add to Inventory</string>
+    <string name="addWishlist">Add to Wishlist</string>
+    <string name="showInventory">My Inventory</string>
+    <string name="showWishlist">My Wishlist</string>
+    <string name="returnToPaints">Return to Paints</string>
+    <string name="removeFromInventory">Remove from Inventory</string>
+    <string name="purchaseButton">Purchase Paint</string>
+
+
+    <string name="addToInventoryDescription">Add to inventory image</string>
+    <string name="showNearby">Nearby Stores</string>
+    <string name="addToWishListDescription">Add to wish list image</string>
+
+    <!---Theme String Literals-->
+    <string name="themeDark">Dark</string>
+    <string name="themeLight">Light</string>
+    <string name="themeRed">Red</string>
+    <string name="themeBlue">Blue</string>
+    <string name="themeUser">Custom</string>
+
+    <!---Navigation Drawer Literals-->
+    <string name="navHome">Home</string>
+    <string name="navInventory">Inventory</string>
+    <string name="navProjects">Projects</string>
+    <string name="navSettings">Settings</string>
+    <string name="navLocation">Location</string>
+    <string name="navTheme">Theme</string>
+    <string name="navHelp">Help</string>
+    <string name="title_activity_tester">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+
+    <!-- Descriptions were lifted from https://www.games-workshop.com/en-US/Citadel-Paint-Guide that describe their own paints. -->
+    <string name="paint_info"><b>Types of Citadel Paints:</b>\n\nBase:\t\tThe foundation for your painting needs. High pigment content and excellent coverage.
+        \n\nShade:\t\tShade paints, also known as a "wash", bring out all the finer details and textures by naturally flowing into the receses.\n\n<b>Layer:</b>\t\t
+        Formulated with a certain opacity so they can be applied over Base paints and each other with great results and to create highlights\n\n<b>Edge:</b>\t\t
+    Developed to help give your miniatures a final sharp, bright highlight. The paints possess the same formulation as the Citadel Layer Paints,
+        but with a much lighter shade to help and you can use them alongside the rest of the Citadel Paint range.\n\n<b>Technical:</b>\t\t
+    Designed to help you achieve a range of effects, from creating rust and corrosion to the foetid slurry of Nurgle’s Rot or the bloody gore of Blood for the Blood God.
+    </string>
+    <string name="paint_picture">A Basic Guide to Colour Combinations</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="buy">Purchase</string>
+    <string name="del">Delete</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emptyInv">Your inventory is empty!\n Click here to get some paints!</string>
+    <string name="emptyWishlist">Your wish list is empty!\n Click here to get some paints!</string>
+    <string name="paintBtn">Paints</string>
+    <string name="scanBtn">Scan UPC</string>
+    <string name="removeFromWishlist">Remove from Wish list</string>
+</resources>

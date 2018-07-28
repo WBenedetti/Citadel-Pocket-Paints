@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navBackground">#FFFFFF</color>
+    <color name="navText">#000000</color>
+    <!--For the custom user theme-->
+    <color name="userBackground">#000000</color>
+    <color name="userText">#FFFFFF</color>
+</resources>

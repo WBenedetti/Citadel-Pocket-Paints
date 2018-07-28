@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/navHome" />
+    <item
+        android:id="@+id/nav_inventory"
+        android:title="@string/navInventory" />
+
+    <item
+        android:id="@+id/nav_projects"
+        android:title="@string/navProjects" />
+
+    <item
+        android:id="@+id/nav_themes"
+        android:title="@string/navTheme" />
+    <item
+        android:id="@+id/nav_location"
+        android:title="@string/navLocation" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:title="@string/navHelp" />
+    <item
+        android:id="@+id/nav_barcode"
+        android:title="Barcode Scanner"/>
+
+</menu>
